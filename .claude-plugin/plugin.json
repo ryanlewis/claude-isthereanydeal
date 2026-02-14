@@ -1,0 +1,9 @@
+{
+  "name": "game-deals",
+  "version": "0.1.0",
+  "description": "Find game deals and price history using the IsThereAnyDeal API",
+  "author": {
+    "name": "Ryan"
+  },
+  "keywords": ["games", "deals", "prices", "isthereanydeal"]
+}
