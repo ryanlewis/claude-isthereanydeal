@@ -64,7 +64,3 @@ Ask naturally about game prices:
 - "What's the cheapest price for Hades?"
 - "Price history for Cyberpunk 2077"
 - "Find deals on indie roguelikes"
-
-## License
-
-MIT
