@@ -27,7 +27,11 @@ claude plugin install isthereanydeal@https://github.com/ryanlewis/claude-plugins
 
 ## Configuration
 
-Create `.claude/isthereanydeal.local.json` in your project:
+In Claude Code, say:
+
+> With my API key `<your-key>` and country code `US`, create `.claude/isthereanydeal.local.json` with this structure: `{"api_key": "...", "country": "..."}`
+
+Or manually create `.claude/isthereanydeal.local.json` in your project:
 
 ```json
 {
