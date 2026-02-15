@@ -15,8 +15,14 @@ An IsThereAnyDeal API key (free). Create an app at https://isthereanydeal.com/ap
 
 ## Installation
 
+```
+/plugin install isthereanydeal@https://github.com/ryanlewis/claude-plugins
+```
+
+Or from the command line:
+
 ```bash
-claude --plugin-dir /path/to/claude-isthereanydeal
+claude plugin install isthereanydeal@https://github.com/ryanlewis/claude-plugins
 ```
 
 ## Configuration
