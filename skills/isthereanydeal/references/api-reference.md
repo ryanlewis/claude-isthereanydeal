@@ -219,4 +219,4 @@ curl -s "https://api.isthereanydeal.com/games/info/v2?id=018d937f-012f-73b8-ab2c
 - Country defaults to "US" if not specified
 - No hard rate limit, but heuristic abuse detection is in place
 - Affiliate links in URLs must not be modified (per Terms of Service)
-- API key obtained free at https://isthereanydeal.com/dev/app/
+- API key obtained free by creating an app at https://isthereanydeal.com/apps/

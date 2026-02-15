@@ -1,6 +1,6 @@
-# game-deals
+# isthereanydeal
 
-A Claude Code plugin for finding game deals and price history using the [IsThereAnyDeal](https://isthereanydeal.com/) API.
+A Claude Code plugin for looking up game prices and price history using the [IsThereAnyDeal](https://isthereanydeal.com/) API.
 
 ## Features
 
@@ -11,7 +11,7 @@ A Claude Code plugin for finding game deals and price history using the [IsThere
 
 ## Prerequisites
 
-An IsThereAnyDeal API key (free). Register at https://isthereanydeal.com/dev/app/.
+An IsThereAnyDeal API key (free). Create an app at https://isthereanydeal.com/apps/ to get an API key.
 
 ## Installation
 
@@ -21,13 +21,13 @@ claude --plugin-dir /path/to/claude-isthereanydeal
 
 ## Configuration
 
-Create `.claude/game-deals.local.md` in your project:
+Create `.claude/isthereanydeal.local.json` in your project:
 
-```markdown
----
-api_key: "your-api-key-here"
-country: "US"
----
+```json
+{
+  "api_key": "your-api-key-here",
+  "country": "US"
+}
 ```
 
 Or set the `ITAD_API_KEY` environment variable:
