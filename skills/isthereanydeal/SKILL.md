@@ -1,5 +1,5 @@
 ---
-name: IsThereAnyDeal
+name: isthereanydeal
 description: This skill should be used when the user asks to "find game deals", "check game prices", "how much does [game] cost", "is [game] on sale", "price history for [game]", "cheapest price for [game]", "where to buy [game]", "best deal on [game]", "compare game prices", or mentions IsThereAnyDeal, ITAD, or game pricing. Uses the IsThereAnyDeal API to look up current game prices across stores and retrieve historical price data.
 version: 0.1.0
 ---
