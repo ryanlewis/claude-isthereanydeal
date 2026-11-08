@@ -15,14 +15,18 @@ An IsThereAnyDeal API key (free). Create an app at https://isthereanydeal.com/ap
 
 ## Installation
 
+Add the marketplace, then install the plugin:
+
 ```
-/plugin install isthereanydeal@https://github.com/ryanlewis/claude-plugins
+/plugin marketplace add ryanlewis/claude-plugins
+/plugin install isthereanydeal@ryanlewis-plugins
 ```
 
 Or from the command line:
 
 ```bash
-claude plugin install isthereanydeal@https://github.com/ryanlewis/claude-plugins
+claude plugin marketplace add ryanlewis/claude-plugins
+claude plugin install isthereanydeal@ryanlewis-plugins
 ```
 
 ## Configuration
